@@ -8,7 +8,7 @@ const axios = require('axios');
 const jsdom = require('jsdom').JSDOM;
 const cliProgress = require('cli-progress');
 
-const CONCURRENT_DOWNLOADS = 6;
+const CONCURRENT_DOWNLOADS = 4;
 
 const axiosInstance = axios.create({
     httpsAgent: new https.Agent({

@@ -2,6 +2,8 @@
 
 Download every album from a Bandcamp artist, using youtube-dl.
 
+![screenshot](./screenshot.png)
+
 ## Dependencies
 
 Install [youtube-dl](https://youtube-dl.org/)
