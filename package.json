@@ -1,12 +1,15 @@
 {
-  "name": "bandcamp-artist-downloader",
+  "name": "bandcamp-dl",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "bin": {
+    "bandcamp-dl": "./index.js"
+  },
+  "keywords": ["bandcamp", "artist", "download", "youtube-dl"],
   "author": "",
   "license": "ISC",
   "dependencies": {
