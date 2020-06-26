@@ -67,7 +67,7 @@ async function main() {
                     const match = /(\d+)\sof\s(\d+)/g.exec(msg);
 
                     if (match) {
-                        const progress = parseInt(match[1]);
+                        const progress = parseInt(match[1]) - 1;
                         const total = parseInt(match[2]);
                         bar.setTotal(total);
                         bar.update(progress, { album, status: "Downloading..." });
