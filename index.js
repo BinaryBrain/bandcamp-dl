@@ -20,7 +20,7 @@ async function main() {
     const source = process.argv[2].replace(/\/+$/, '');
 
     if (typeof source === 'undefined' || source === '') {
-        console.error('No source give. Example: node index.js https://radicaldreamland.bandcamp.com');
+        console.error('No source given. Example: bandcamp-dl https://radicaldreamland.bandcamp.com');
         process.exit(1);
     }
 
